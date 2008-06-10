@@ -34,9 +34,9 @@ rm -rf %{buildroot}
 
 mkdir -p %{buildroot}/smack
 mkdir -p %{buildroot}/{%_sbindir,%_libdir,%_sysconfdir/init.d}
-install smackload smackcipso %{buildroot}%{_sbindir}
-install libsmack.a %{buildroot}%{_libdir}
-install %{SOURCE1} %{buildroot}%{_sysconfdir}/init.d/smack
+install -m755 smackload smackcipso %{buildroot}%{_sbindir}
+install -m644 libsmack.a %{buildroot}%{_libdir}
+install -m755 %{SOURCE1} %{buildroot}%{_sysconfdir}/init.d/smack
 
 %post
 %_post_service smack
