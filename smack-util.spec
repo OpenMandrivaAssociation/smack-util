@@ -4,7 +4,7 @@
 Summary: Smack user-space tools
 Name: smack-util
 Version: %ver
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL
 Group: System/Base
 Source0: smack-util-%{ver}.tar.gz
@@ -13,8 +13,7 @@ URL: http://www.schaufler-ca.com
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
-This packages contains the user-space programs needed to
-configure Smack properly.
+SMACK user-space utilities.
 
 %package %{libsuffix}
 Summary: Static library for %{name}
