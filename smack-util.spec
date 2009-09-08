@@ -4,7 +4,7 @@
 Summary: Smack user-space tools
 Name: smack-util
 Version: %ver
-Release: %mkrel 2
+Release: %mkrel 3
 License: GPL
 Group: System/Base
 Source0: smack-util-%{ver}.tar.gz
