@@ -9,7 +9,7 @@ License: GPL
 Group: System/Base
 Source0: smack-util-%{ver}.tar.gz
 Source1: smack.init
-URL: http://www.schaufler-ca.com
+URL: https://www.schaufler-ca.com
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
